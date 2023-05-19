@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 96 960 960" width="40">
+<style>
+    .white{
+        fill: black;
+    }
+</style>
+<path id="nextBtn" class="white" d="M309.666 981.044 242.29 913l338.333-338.333L242.29 236.333l67.376-68.043 406.377 406.377-406.377 406.377Z"/></svg>

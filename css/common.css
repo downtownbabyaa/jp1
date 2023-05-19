@@ -1,0 +1,31 @@
+.wrap{
+  width: 1100px;
+}
+.flex{
+  display: flex !important;
+}
+.block{
+  display: block;
+}
+.auto{
+  margin: 0 auto;
+}
+.green{
+  color: #00dd6d;
+}
+.white{
+  color: white;
+}
+.h1{
+  margin-bottom: 22px;
+  font-size: 23px;
+  font-weight: 700;
+}
+.background{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.text-gray{
+  color: #999;
+}
