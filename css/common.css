@@ -1,11 +1,17 @@
 .wrap{
   width: 1100px;
 }
+.lock{
+  overflow: hidden;
+}
 .flex{
   display: flex !important;
 }
 .block{
   display: block;
+}
+.hide{
+  display: none;
 }
 .auto{
   margin: 0 auto;
