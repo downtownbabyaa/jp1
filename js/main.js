@@ -1,10 +1,11 @@
 $(document).ready(function(){
-    $(".header .headbottom .leftMenu a, .header .headbottom .rightMenu a").hover(function(){
+    $(".leftMenu a, .rightMenu a").hover(function(){
         $(this).removeClass("text-gray");
         $(this).siblings().addClass("text-gray");
+        
     });
-    $(".header .headbottom .leftMenu, .header .headbottom .rightMenu").mouseleave(function(){
-        $(this).children('a').removeClass("text-gray");
+    $(".leftMenu a, .rightMenu a").mouseleave(function(){
+        $('.leftMenu a, .rightMenu a').removeClass("text-gray");
     });
     $('.titleBox ul').slick({
         autoplay: true,
@@ -20,6 +21,10 @@ $(document).ready(function(){
         arrows: true,
         swipe: false,
     });
+    // $('.adList').slick({
+        
+
+    // });
     $(".header .headbottom .leftMenu a:nth-child(2)").hover(function(){
         $('#otherMenu').remove();
         $(this).append('<div id="otherMenu"><ul><li><a href="">절찬 채용중 👀</a></li><li><a href="">취업꿀팁 대방출 🔥</a></li></ul></div>');

@@ -64,7 +64,7 @@
 }
 .header .headbottom .leftMenu a {
   font-size: 15px;
-
+  display: block;
 }
 .header .headbottom .leftMenu a:nth-child(2), .header .headbottom .leftMenu a:nth-child(5){
   position: relative;
@@ -232,7 +232,28 @@
   color: #ccc;
   padding: 0 3px;
 }
-
+/* 광고 박스 */
+.addBlock{
+  position: absolute;
+  top: 0;
+  right: -122px;
+}
+.addBlock{
+  
+}
+.addBlock li{
+  width: 100px;
+  height: 148px;
+}
+.addBlock li a{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.addBlock li a img{
+  width: 100%;
+  height: 100%;
+}
 /* 상단 영역 */
 .title {
   padding-top: 40px;
@@ -296,6 +317,7 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 32px 20px;
+  position: relative;
 }
 .title .rightTitle .loginBox p {
   line-height: 1.3;
@@ -323,10 +345,23 @@
 }
 .title .rightTitle .loginBox .snsBox a{
   display: block;
-  width: 32px;
-  height: 32px;
-  border: 1px solid;
+  width: 37px;
+  height: 37px;
   border-radius: 50%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid;
+}
+.title .rightTitle .loginBox .snsBox a:nth-child(2){
+  background-image: url(../img/naver_logo.png);
+  border: none;
+}
+.title .rightTitle .loginBox .snsBox a:nth-child(3){
+  background-image: url(../img/google_logo.png);
+  border: none;
+  width: 31px;
+  height: 31px;
 }
 .title .rightTitle .noticeBox {
   height: calc(340px - 242px);
